@@ -5,6 +5,8 @@ import com.sarang.library.data.RestaurantImage
 import com.sarang.library.usecase.GetMenuUseCase
 import com.sarang.library.usecase.GetRestaurantGalleryUseCase
 import com.sarang.torang.api.ApiRestaurant
+import com.sarang.torang.di.restaurant_overview_di.toMenus
+import com.sarang.torang.di.restaurant_overview_di.toRestaurantImages
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
